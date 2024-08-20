@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{434001D9-44E4-8E28-E772-25E1D5A63BF0}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameMenu.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GameMenu.cs" Line="6" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="IF" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
