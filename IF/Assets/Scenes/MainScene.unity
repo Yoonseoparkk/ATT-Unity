@@ -528,7 +528,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e378234a12657d440a59f58dceb30bf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chatBotText: {fileID: 0}
 --- !u!1 &384805739
 GameObject:
   m_ObjectHideFlags: 0
@@ -711,7 +710,6 @@ GameObject:
   - component: {fileID: 505490794}
   - component: {fileID: 505490798}
   - component: {fileID: 505490797}
-  - component: {fileID: 505490796}
   - component: {fileID: 505490795}
   m_Layer: 5
   m_Name: chatPanel
@@ -839,23 +837,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &505490796
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 505490793}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 426496781b2847c4c8585dd3f50664d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  YellowArea: {fileID: 0}
-  WhiteArea: {fileID: 0}
-  DateArea: {fileID: 0}
-  ContentRect: {fileID: 0}
-  scrollBar: {fileID: 0}
 --- !u!114 &505490797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2092,7 +2073,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e378234a12657d440a59f58dceb30bf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chatBotText: {fileID: 0}
 --- !u!1 &2120294285
 GameObject:
   m_ObjectHideFlags: 0
