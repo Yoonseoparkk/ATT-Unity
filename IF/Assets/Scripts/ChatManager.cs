@@ -11,7 +11,7 @@ public class ChatManager : MonoBehaviour
     public GameObject YellowArea, WhiteArea, DateArea;
     public RectTransform ContentRect;
     public Scrollbar scrollBar;
-    AreaScript LastArea;
+    ChatAreaScript LastArea;
 
 
     public void Chat(bool isSend, string text, string user, Texture2D picture)
@@ -21,8 +21,8 @@ public class ChatManager : MonoBehaviour
         bool isBottom = scrollBar.value <= 0.00001f;
 
 
-        //보내는 사람은 노랑, 받는 사람은 흰색영역을 크게 만들고 텍스트 대입
-        AreaScript Area = Instantiate(isSend ? YellowArea : WhiteArea).GetComponent<AreaScript>();
+        //보내는 사람은 노랑, 받는 사람은 흰 색 영역을 크게 만들고 텍스트 대입
+        ChatAreaScript Area = Instantiate(isSend ? YellowArea : WhiteArea).GetComponent<ChatAreaScript>();
         Area.transform.SetParent(ContentRect.transform, false);
         Area.BoxRect.sizeDelta = new Vector2(600, Area.BoxRect.sizeDelta.y);
         Area.TextRect.GetComponent<Text>().text = text;
@@ -92,7 +92,7 @@ public class ChatManager : MonoBehaviour
                 case DayOfWeek.Friday: week = "금"; break;
                 case DayOfWeek.Saturday: week = "토"; break;
             }
-            CurDateArea.GetComponent<AreaScript>().DateText.text = t.Year + "년 " + t.Month + "월 " + t.Day + "일 " + week + "요일";
+            CurDateArea.GetComponent<ChatAreaScript>().DateText.text = t.Year + "년 " + t.Month + "월 " + t.Day + "일 " + week + "요일";
         }
 
 

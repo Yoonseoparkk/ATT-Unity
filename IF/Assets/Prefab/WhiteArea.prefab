@@ -401,7 +401,7 @@ GameObject:
   - component: {fileID: 4322482489166667693}
   - component: {fileID: 4322482489166667683}
   - component: {fileID: 4322482489166667692}
-  - component: {fileID: 5886750027763592659}
+  - component: {fileID: -60436622884144866}
   - component: {fileID: 9155905881126431596}
   m_Layer: 5
   m_Name: WhiteArea
@@ -473,7 +473,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
---- !u!114 &5886750027763592659
+--- !u!114 &-60436622884144866
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -482,12 +482,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 4322482489166667694}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7dff0e6ee64ef3442aac3ca48a7da0ae, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c9f2a1fd2c143447be864f5f492a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   AreaRect: {fileID: 4322482489166667693}
   BoxRect: {fileID: 4322482490260324592}
-  TextRect: {fileID: 4322482489878329311}
+  TextRect: {fileID: 3208142920382534009}
   Tail: {fileID: 4322482489592931671}
   TimeText: {fileID: 4322482488853659107}
   UserText: {fileID: 3208142920382534008}
