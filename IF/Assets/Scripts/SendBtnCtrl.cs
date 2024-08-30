@@ -9,15 +9,10 @@ public class SendBtnCtrl : MonoBehaviour
     InputField UserSendField;
     Button ButtonSend;
 
-    //SendMessageToVue SendMessageToVue;
-
     void Start()
     {
         UserSendField = gameObject.GetComponent<InputField>();
         ButtonSend = GameObject.Find("ButtonSend").GetComponent<Button>();
-
-        //SendMessageToVue = GetComponent<SendMessageToVue>();
-        //UserSendField.onSubmit.AddListener(delegate { SendMessageToVue.ButtonSendPressed(); });
     }
 
     private void Update()
