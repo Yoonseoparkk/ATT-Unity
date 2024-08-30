@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3772337820084936635}
   - component: {fileID: 3772337820084936629}
   - component: {fileID: 3772337820084936634}
-  - component: {fileID: 6780006903839829445}
+  - component: {fileID: 5106562131746223995}
   m_Layer: 5
   m_Name: DateArea
   m_TagString: Untagged
@@ -80,7 +80,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
---- !u!114 &6780006903839829445
+--- !u!114 &5106562131746223995
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -89,19 +89,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 3772337820084936632}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7dff0e6ee64ef3442aac3ca48a7da0ae, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c9f2a1fd2c143447be864f5f492a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AreaRect: {fileID: 0}
-  BoxRect: {fileID: 0}
+  AreaRect: {fileID: 3772337820084936635}
+  BoxRect: {fileID: 3772337821170204902}
   TextRect: {fileID: 0}
   Tail: {fileID: 0}
   TimeText: {fileID: 0}
-  ChatBotText: {fileID: 0}
+  UserText: {fileID: 0}
   DateText: {fileID: 3772337820526720968}
-  ChatBotImage: {fileID: 0}
+  UserImage: {fileID: 0}
   Time: 
-  ChatBot: 
+  User: 
 --- !u!1 &3772337820526720974
 GameObject:
   m_ObjectHideFlags: 0

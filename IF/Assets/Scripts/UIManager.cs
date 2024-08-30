@@ -6,38 +6,18 @@ using System.Runtime.InteropServices;
 public class UIManager : MonoBehaviour
 {
     public GameObject chatPanel;
-
-    [DllImport("__Internal")]
-    private static extern void UnityEvent(string message);
+    SendMessageToVue SendMessageToVue;
 
     // Unity 시작시 호출되는 메소드
     public void Start()
     {
+        SendMessageToVue = GameObject.Find("ButtonSend").GetComponent<SendMessageToVue>();
         chatPanel.gameObject.SetActive(false);
     }
 
     public void ButtonStartPressed() // '게임 시작' 버튼 눌렀을 때
     {
-        SendMessageToVue("Start chat with your ideal type!");
         chatPanel.gameObject.SetActive(true);
-    }
-
-    // -----------------------------------------------------------------
-
-    // JavaScript 함수를 호출하는 메소드
-    public void SendMessageToVue(string message)
-    {
-#if UNITY_WEBGL && !UNITY_EDITOR
-        try
-        {
-            UnityEvent(message);    // JavaScript에서 정의된 함수 호출
-        }
-        catch (System.Exception e)
-        {
-            Debug.LogError("Failed to call UnityEvent: " + e.Message);
-        }
-#else
-        Debug.Log("Sending to Vue: " + message);
-#endif
+        SendMessageToVue.SendUserMessage("안녕하세요 처음 뵙겠습니다. 호준이한테 연락처 받고 연락드려요. 당신과 소개팅하게 된 박윤서라고 해요!");
     }
 }

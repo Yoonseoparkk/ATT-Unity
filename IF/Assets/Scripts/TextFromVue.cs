@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Runtime.InteropServices;
+using System;
 
 public class TextFromVue : MonoBehaviour
 {
@@ -19,7 +20,16 @@ public class TextFromVue : MonoBehaviour
     {
         Debug.Log("Message received from JavaScript: " + message);
         chatMessage = message;
-        ChatManager.Chat(false, chatMessage, "이상형", Resources.Load<Texture2D>("aiGirl"));
+
+        try
+        {
+            ChatManager.Chat(false, chatMessage, "이상형", Resources.Load<Texture2D>("aiGirl"));
+        }
+        catch (NullReferenceException ex)
+        { 
+            print(ex);
+        }
+
         chatMessage = "";
     }
 }

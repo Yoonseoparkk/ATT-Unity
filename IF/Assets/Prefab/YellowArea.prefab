@@ -112,7 +112,7 @@ GameObject:
   - component: {fileID: 2901260386298969690}
   - component: {fileID: 2901260386298969684}
   - component: {fileID: 2901260386298969691}
-  - component: {fileID: 4759809935615560740}
+  - component: {fileID: 5322985638476692593}
   - component: {fileID: 3940668416546222726}
   m_Layer: 5
   m_Name: YellowArea
@@ -182,7 +182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
---- !u!114 &4759809935615560740
+--- !u!114 &5322985638476692593
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -191,7 +191,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2901260386298969689}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7dff0e6ee64ef3442aac3ca48a7da0ae, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c9f2a1fd2c143447be864f5f492a279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   AreaRect: {fileID: 2901260386298969690}
