@@ -23,7 +23,7 @@ public class TextFromVue : MonoBehaviour
 
         try
         {
-            ChatManager.Chat(false, chatMessage, "이상형", Resources.Load<Texture2D>("aiGirl"));
+            ChatManager.Chat(false, chatMessage, "장원영", Resources.Load<Texture2D>("aiGirl"));
         }
         catch (NullReferenceException ex)
         { 

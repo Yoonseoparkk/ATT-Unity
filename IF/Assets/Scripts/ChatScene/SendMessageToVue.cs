@@ -4,11 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Runtime.InteropServices;
 using Unity.VisualScripting;
+using DG.Tweening.Plugins;
 
 public class SendMessageToVue : MonoBehaviour
 {
     ChatManager ChatManager;
     public InputField userSendText;
+    public Image sendTextBtn;
     Text placeHolder;
 
     [DllImport("__Internal")]
@@ -29,6 +31,7 @@ public class SendMessageToVue : MonoBehaviour
 
     void Update()
     {
+        ButtonActiveCtrl();
         // 매 프레임마다 InputField의 커서 깜박임 갱신
         if (userSendText.isFocused)
         {
@@ -61,7 +64,7 @@ public class SendMessageToVue : MonoBehaviour
         if (!string.IsNullOrEmpty(userSendText.text))
         {
             ChatManager.Chat(true, userSendText.text, "나", null);
-            SendUserMessage(userSendText.text);
+            SendUserMessage("0[SceneNumber]" + userSendText.text);
             userSendText.text = ""; // 전송하면 text input field 내용 지우기
             FocusInputField(); // 메시지 전송 후 InputField에 다시 포커스
         }
@@ -74,36 +77,33 @@ public class SendMessageToVue : MonoBehaviour
         userSendText.ActivateInputField();
     }
 
-    private void ButtonAcitiveCtrl()
+    private void ButtonActiveCtrl()
     {
-    if (userSendText.text.Trim() == "")
+        if (userSendText.text.Trim() == "")
         {
-            GetComponent<Image>().color = new Color32(200, 200, 200, 255);
-            GetComponent<Button>().enabled = false;
+            sendTextBtn.color = new Color32(200, 200, 200, 255);
+            sendTextBtn.gameObject.GetComponent<Button>().enabled = false;
         }
         else
         {
-            GetComponent<Image>().color = new Color32(255, 228, 1, 255);
-            GetComponent<Button>().enabled = true;
+            sendTextBtn.color = new Color32(255, 228, 1, 255);
+            sendTextBtn.gameObject.GetComponent<Button>().enabled = true;
         }
-
     }
-
-
-// JavaScript 함수를 호출하는 메서드
-public void SendUserMessage(string message)
+    public void SendUserMessage(string message)
     {
 #if UNITY_WEBGL && !UNITY_EDITOR
-        try
-        {
-            UnityEvent(message);    // JavaScript에서 정의된 함수 호출
-        }
-        catch (System.Exception e)
-        {
-            Debug.LogError("Failed to call UnityEvent: " + e.Message);
-        }
+    try
+    {
+        // 두 매개변수를 JavaScript로 전달
+        UnityEvent(message);
+    }
+    catch (System.Exception e)
+    {
+        Debug.LogError("Failed to call UnityEvent: " + e.Message);
+    }
 #else
-        Debug.Log("Sending to Vue: " + message);
+        Debug.Log($"Sending to Vue message: {message}");
 #endif
     }
 }
