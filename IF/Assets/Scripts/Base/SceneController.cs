@@ -13,6 +13,7 @@ public class SceneController : MonoBehaviour
     private LikabilityManager likabilityManager;
     private MeetingManager meetingManager;
 
+
     void Start()
     {
         likabilityManager = GetComponent<LikabilityManager>();

@@ -17,6 +17,8 @@ public class SendMessageToVue2 : MonoBehaviour
 
     void Start()
     {
+        SendUserMessage("1[SceneNumber]원영씨 많이 기다리셨어요? 오는 길에 차가 조금 막혀서.. 실물로 뵙게 되니 더 미인이시네요!");
+
         // InputField의 onEndEdit 이벤트에 메서드 연결
         userSendText.onEndEdit.AddListener(HandleInputFieldEndEdit);
         placeHolder = GameObject.Find("Placeholder").GetComponent<Text>();
