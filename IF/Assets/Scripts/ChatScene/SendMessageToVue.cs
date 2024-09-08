@@ -18,6 +18,8 @@ public class SendMessageToVue : MonoBehaviour
 
     void Start()
     {
+        SendUserMessage("0[SceneNumber]안녕하세요 원영씨! 처음 뵙겠습니다. 윤서한테 연락처 받고 연락드려요. 당신과 소개팅하게 된 이호준이라고 해요!");
+
         ChatManager = GetComponent<ChatManager>();
 
         // InputField의 onEndEdit 이벤트에 메서드 연결
@@ -90,6 +92,7 @@ public class SendMessageToVue : MonoBehaviour
             sendTextBtn.gameObject.GetComponent<Button>().enabled = true;
         }
     }
+
     public void SendUserMessage(string message)
     {
 #if UNITY_WEBGL && !UNITY_EDITOR
