@@ -10,24 +10,12 @@ public class SceneController : MonoBehaviour
 {
     public Image fadePanel;
     public Text description;
-    //private LikabilityManager likabilityManager;
-    //private MeetingManager meetingManager;
 
 
     void Start()
     {
         fadePanel.DOFade(1, 0f);
         fadePanel.DOFade(0, 1.5f); // Fade In
-        //likabilityManager = GetComponent<LikabilityManager>();
-        //meetingManager = GetComponent<MeetingManager>();
-    }
-
-    void Update()
-    {
-        //if (likabilityManager.GetNormalizedLikability() >= 0.5f && meetingManager.meetingPlace.text != "???" && meetingManager.meetingDay.text != "?ø‰¿œ")
-        //{
-        //    MoveToCafeScene();
-        //}
     }
 
     public void MoveToChatScene()

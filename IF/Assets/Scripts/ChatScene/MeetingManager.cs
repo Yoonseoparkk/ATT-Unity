@@ -11,6 +11,15 @@ public class MeetingManager : MonoBehaviour
 
     public bool letsMeet = false;
 
+    private LikabilityManager likabilityManager;
+    private SceneController sceneController;
+
+    void Start()
+    {
+        likabilityManager = GetComponent<LikabilityManager>();
+        sceneController = GetComponent<SceneController>();
+    }
+
     void Update()
     {
         if (letsMeet)
@@ -19,6 +28,11 @@ public class MeetingManager : MonoBehaviour
             meetingPlace.gameObject.SetActive(true);
             meetingDay.gameObject.SetActive(true);
             letsMeet = false;
+        }
+
+        if (likabilityManager.GetNormalizedLikability() >= 0.5f && meetingPlace.text != "미정" && meetingDay.text != "미정")
+        {
+            sceneController.MoveToCafeScene();
         }
     }
 }
