@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public class LikabilityManager2 : MonoBehaviour
 {
-    public float currentLikability = 70f; // 0 to 100
+    public float currentLikability = 50f; // 0 to 100
     public float minLikability = 0f;
     public float maxLikability = 100f;
 
