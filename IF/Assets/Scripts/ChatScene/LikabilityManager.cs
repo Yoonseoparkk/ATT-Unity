@@ -3,9 +3,17 @@ using System.Collections.Generic;
 
 public class LikabilityManager : MonoBehaviour
 {
-    public float currentLikability = 50f; // 0 to 100
+    public float currentLikability = 30f; // 0 to 100
     public float minLikability = 0f;
     public float maxLikability = 100f;
+
+    public GameObject failedPopUp;
+    private AudioManager AM;
+
+    void Start()
+    {
+        AM = GetComponent<AudioManager>();
+    }
 
     private Dictionary<string, float> keywordLikability = new Dictionary<string, float>()
     {
@@ -76,13 +84,23 @@ public class LikabilityManager : MonoBehaviour
         {
             if (message.Contains(keyword))
             {
+                if (keywordLikability[keyword] < 0)
+                {
+                    AM.audio.clip = AM.ac[2];
+                    AM.audio.Play();    // 호감도 감소 사운드
+                }
+                else
+                {
+                    AM.audio.clip = AM.ac[1];
+                    AM.audio.Play();    // 호감도 상승 사운드
+                }
                 currentLikability += keywordLikability[keyword];
                 currentLikability = Mathf.Clamp(currentLikability, minLikability, maxLikability);
                 break; // 첫 번째 일치하는 키워드에 대해서만 호감도 변경
             }
         }
 
-        if (currentLikability >= 70f)
+        if (currentLikability >= 50f)
         {
             GetComponent<MeetingManager>().letsMeet = true;
         }
@@ -91,5 +109,13 @@ public class LikabilityManager : MonoBehaviour
     public float GetNormalizedLikability()
     {
         return (currentLikability - minLikability) / (maxLikability - minLikability);
+    }
+
+    public void CheckGameOver()
+    {
+        if (currentLikability <= 0f)
+        {
+            failedPopUp.SetActive(true);
+        }
     }
 }

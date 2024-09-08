@@ -10,34 +10,35 @@ public class SceneController : MonoBehaviour
 {
     public Image fadePanel;
     public Text description;
-    private LikabilityManager likabilityManager;
-    private MeetingManager meetingManager;
 
 
     void Start()
     {
-        likabilityManager = GetComponent<LikabilityManager>();
-        meetingManager = GetComponent<MeetingManager>();
+        fadePanel.DOFade(1, 0f);
+        fadePanel.DOFade(0, 1.5f); // Fade In
     }
 
-    void Update()
+    public void MoveToChatScene()
     {
-        if (likabilityManager.GetNormalizedLikability() >= 0.7f && meetingManager.meetingPlace.text != "???" && meetingManager.meetingDay.text != "?요일")
-        {
-            MoveToFirstDate();
-        }
+        StartCoroutine(MoveScene("ChatScene", ""));
     }
 
-    public void MoveToFirstDate()
+    public void MoveToCafeScene()
     {
-        StartCoroutine(MoveScene("CafeScene"));
+        StartCoroutine(MoveScene("CafeScene", ""));
+    }
+
+    public void MoveToMenuScene()
+    {
+        StartCoroutine(MoveScene("MenuScene", ""));
     }
 
 
-    IEnumerator MoveScene(string SceneName)
+    IEnumerator MoveScene(string SceneName, string descriptionText)
     {
-        fadePanel.DOFade(1, 3f); // Fade out
-        description.DOFade(1, 3f);
+        fadePanel.DOFade(1, 1.5f); // Fade out
+        description.DOFade(1, 1.5f);
+        description.text = descriptionText;
         GameObject.Find("Main Camera").GetComponent<AudioSource>().DOFade(0f, 3f);
         yield return new WaitForSeconds(3f);  // 지체할 시간 (초)
         SceneManager.LoadScene(SceneName);

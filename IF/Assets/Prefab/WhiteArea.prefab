@@ -179,11 +179,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 46c519bedbd92934fb5d8d458e7dbde0, type: 3}
-    m_FontSize: 33
+    m_Font: {fileID: 12800000, guid: aa76e6335e8f0a64b815bc3be6de237a, type: 3}
+    m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 2
     m_MaxSize: 42
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -357,7 +357,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 46c519bedbd92934fb5d8d458e7dbde0, type: 3}
+    m_Font: {fileID: 12800000, guid: 14c73a87bcd04b14682982adb42e88ae, type: 3}
     m_FontSize: 31
     m_FontStyle: 0
     m_BestFit: 0
@@ -493,7 +493,6 @@ MonoBehaviour:
   UserText: {fileID: 3208142920382534008}
   DateText: {fileID: 0}
   UserImage: {fileID: 3208142921539147405}
-  SubUserImage: {fileID: 0}
   Time: 
   User: 
 --- !u!82 &9155905881126431596
@@ -756,8 +755,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 46c519bedbd92934fb5d8d458e7dbde0, type: 3}
-    m_FontSize: 42
+    m_Font: {fileID: 12800000, guid: 14c73a87bcd04b14682982adb42e88ae, type: 3}
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
