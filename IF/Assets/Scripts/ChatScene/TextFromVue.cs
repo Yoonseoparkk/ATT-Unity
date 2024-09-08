@@ -12,6 +12,7 @@ public class TextFromVue : MonoBehaviour
 
     string chatMessage;
     string meetDate;
+    string meetPlace;
 
     public void Start()
     {
@@ -37,11 +38,12 @@ public class TextFromVue : MonoBehaviour
         chatMessage = "";
     }
 
+    // JavaScript에서 호출할 수 있는 Unity 메서드
     public void DateEvent(string date)
     {
         Debug.Log("Message received from JavaScript: " + date);
 
-        if (date == "")
+        if (date == "" || date.Contains("없"))
         {
             meetDate = "미정";   // 아직 약속 날짜가 정해지지 않고 데이터를 받아올 경우
         }
@@ -60,5 +62,31 @@ public class TextFromVue : MonoBehaviour
         }
 
         meetDate = "";
+    }
+
+    // JavaScript에서 호출할 수 있는 Unity 메서드
+    public void PlaceEvent(string place)
+    {
+        Debug.Log("Message received from JavaScript: " + place);
+
+        if (place == "" || place.Contains("없"))
+        {
+            meetPlace = "미정";   // 아직 약속 장소가 정해지지 않고 데이터를 받아올 경우
+        }
+        else
+        {
+            meetPlace = place;
+        }
+
+        try
+        {
+            MeetingManager.meetingPlace.text = meetPlace;
+        }
+        catch (NullReferenceException ex)
+        {
+            print(ex);
+        }
+
+        meetPlace = "";
     }
 }
