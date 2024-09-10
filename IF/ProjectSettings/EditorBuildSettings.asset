@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CafeScene.unity
     guid: 276f4919f98429b45ade7ae28a7c24b1
+  - enabled: 1
+    path: Assets/Scenes/DiningScene.unity
+    guid: b3c15b0774224eb45b5318caf3357a7c
   m_configObjects: {}
