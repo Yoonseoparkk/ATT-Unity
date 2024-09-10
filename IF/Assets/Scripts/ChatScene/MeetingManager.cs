@@ -30,9 +30,13 @@ public class MeetingManager : MonoBehaviour
             letsMeet = false;
         }
 
+        // 모든 조건이 만족된 후 마무리 인사를 하면 다음 씬으로 이동
         if (likabilityManager.GetNormalizedLikability() >= 0.5f && meetingPlace.text != "미정" && meetingDay.text != "미정")
         {
-            sceneController.MoveToCafeScene();
+            if (GameObject.Find("ButtonSend").GetComponent<SendMessageToVue>().endChat)
+            {
+                sceneController.MoveToCafeScene();
+            }
         }
     }
 }
