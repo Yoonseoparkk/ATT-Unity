@@ -28,7 +28,7 @@ public class TextFromVue : MonoBehaviour
 
         try
         {
-            ChatManager.Chat(false, chatMessage, "장원영", Resources.Load<Texture2D>("aiGirl"));
+            ChatManager.Chat(false, chatMessage, "이지은", Resources.Load<Texture2D>("aiGirl"));
         }
         catch (NullReferenceException ex)
         { 
@@ -43,13 +43,16 @@ public class TextFromVue : MonoBehaviour
     {
         Debug.Log("Message received from JavaScript: " + date);
 
-        if (date == "" || date.Contains("없"))
+        if (date == "" || date.Contains("없") || date.Contains("none"))
         {
             meetDate = "미정";   // 아직 약속 날짜가 정해지지 않고 데이터를 받아올 경우
         }
         else
         {
-            meetDate = date;    
+            if (MeetingManager.meetingDay.gameObject.activeSelf)   // 퀘스트 활성화 됐을 때만 적용
+            {
+                meetDate = "O";
+            }
         }
 
         try
@@ -69,13 +72,16 @@ public class TextFromVue : MonoBehaviour
     {
         Debug.Log("Message received from JavaScript: " + place);
 
-        if (place == "" || place.Contains("없"))
+        if (place == "" || place.Contains("없") || place.Contains("none"))
         {
             meetPlace = "미정";   // 아직 약속 장소가 정해지지 않고 데이터를 받아올 경우
         }
         else
         {
-            meetPlace = place;
+            if (MeetingManager.meetingPlace.gameObject.activeSelf)   // 퀘스트 활성화 됐을 때만 적용
+            {
+                meetPlace = "O";
+            }
         }
 
         try

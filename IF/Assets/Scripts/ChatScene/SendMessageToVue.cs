@@ -13,14 +13,16 @@ public class SendMessageToVue : MonoBehaviour
     public Image sendTextBtn;
     Text placeHolder;
 
+    public bool endChat = false;
+
     [DllImport("__Internal")]
     private static extern void UnityEvent(string message);
 
     void Start()
     {
-        SendUserMessage("0[SceneNumber]안녕하세요 원영씨! 처음 뵙겠습니다. 윤서한테 연락처 받고 연락드려요. 당신과 소개팅하게 된 이호준이라고 해요!");
-
-        ChatManager = GetComponent<ChatManager>();
+        SendUserMessage("0[SceneNumber]안녕하세요 지은씨! 처음 뵙겠습니다. 윤서한테 연락처 받고 연락드려요. 당신과 소개팅하게 된 이호준이라고 해요!");
+        
+        ChatManager = GameObject.Find("GameManager").GetComponent<ChatManager>();
 
         // InputField의 onEndEdit 이벤트에 메서드 연결
         userSendText.onEndEdit.AddListener(HandleInputFieldEndEdit);
@@ -67,6 +69,13 @@ public class SendMessageToVue : MonoBehaviour
         {
             ChatManager.Chat(true, userSendText.text, "나", null);
             SendUserMessage("0[SceneNumber]" + userSendText.text);
+
+            // 퀘스트 만족 후 마무리 멘트 후 씬 이동
+            if (userSendText.text.Contains("그럼 그"))
+            {
+                endChat = true;
+            }
+
             userSendText.text = ""; // 전송하면 text input field 내용 지우기
             FocusInputField(); // 메시지 전송 후 InputField에 다시 포커스
         }
