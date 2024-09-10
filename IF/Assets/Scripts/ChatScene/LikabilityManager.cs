@@ -29,7 +29,7 @@ public class LikabilityManager : MonoBehaviour
         {"행복", 5f},
         {"고마워", 5f},
         {"감사", 5f},
-        {"좋", 5f},
+        {"좋아", 5f},
         {"신나", 5f},
         {"같이", 5f},
         {"가자", 5f},

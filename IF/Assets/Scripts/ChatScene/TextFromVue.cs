@@ -64,7 +64,7 @@ public class TextFromVue : MonoBehaviour
             print(ex);
         }
 
-        meetDate = "";
+        //meetDate = "";
     }
 
     // JavaScript에서 호출할 수 있는 Unity 메서드
@@ -93,6 +93,6 @@ public class TextFromVue : MonoBehaviour
             print(ex);
         }
 
-        meetPlace = "";
+        //meetPlace = "";
     }
 }

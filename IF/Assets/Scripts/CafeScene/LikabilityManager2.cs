@@ -48,6 +48,7 @@ public class LikabilityManager2 : MonoBehaviour
 
         // 호감도 감소 키워드
         {"최악", -5f},
+        {"무서", -5f},
         {"무례", -5f},
         {"후회", -5f},
         {"싫어", -5f},

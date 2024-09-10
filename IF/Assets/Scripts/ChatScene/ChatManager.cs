@@ -78,8 +78,8 @@ public class ChatManager : MonoBehaviour
             likabilityManager.CheckGameOver();  // 호감도가 일정 수준 이상 떨어지면 GameOver
         }
 
-        //likabilityManager.UpdateLikability(text);    // *** 호감도 업데이트 Unity 빌드 테스트용 ***
-        //likabilityManager.CheckGameOver();  // *** 호감도가 일정 수준 이상 떨어지면 GameOver Unity 빌드 테스트용 ***
+        likabilityManager.UpdateLikability(text);    // *** 호감도 업데이트 Unity 빌드 테스트용 ***
+        likabilityManager.CheckGameOver();  // *** 호감도가 일정 수준 이상 떨어지면 GameOver Unity 빌드 테스트용 ***
 
         // 이전 것과 날짜가 다르면 날짜영역 보이기
         if (LastArea != null && LastArea.Time.Substring(0, 10) != Area.Time.Substring(0, 10))

@@ -20,7 +20,7 @@ public class SendMessageToVue : MonoBehaviour
 
     void Start()
     {
-        SendUserMessage("0[SceneNumber]안녕하세요 지은씨! 처음 뵙겠습니다. 윤서한테 연락처 받고 연락드려요. 당신과 소개팅하게 된 이호준이라고 해요!");
+        SendUserMessage("0[SceneNumber]안녕하세요 지은씨! 처음 뵙겠습니다. 연락처 전달 받고 연락드려요. 당신과 소개팅하게 된 이호준이라고 해요!");
         
         ChatManager = GameObject.Find("GameManager").GetComponent<ChatManager>();
 
