@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "C:\\proj\\ATT-Unity\\IF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|c:\\proj\\att-unity\\if\\assets\\scripts\\chatscene\\sendmessagetovue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|C:\\proj\\ATT-Unity\\IF\\assets\\scripts\\cafescene\\diningmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cafescene\\diningmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|C:\\proj\\ATT-Unity\\IF\\assets\\scripts\\cafescene\\likabilitymanager2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cafescene\\likabilitymanager2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|C:\\proj\\ATT-Unity\\IF\\assets\\scripts\\chatscene\\sendmessagetovue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chatscene\\sendmessagetovue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|C:\\proj\\ATT-Unity\\IF\\assets\\scripts\\chatscene\\chatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chatscene\\chatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|c:\\proj\\att-unity\\if\\assets\\scripts\\chatscene\\likabilitymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|C:\\proj\\ATT-Unity\\IF\\assets\\scripts\\chatscene\\likabilitymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chatscene\\likabilitymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|C:\\proj\\ATT-Unity\\IF\\assets\\scripts\\chatscene\\textfromvue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chatscene\\textfromvue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|C:\\proj\\ATT-Unity\\IF\\assets\\scripts\\base\\scenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\base\\scenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|C:\\proj\\ATT-Unity\\IF\\assets\\scripts\\chatscene\\meetingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|c:\\proj\\att-unity\\if\\assets\\scripts\\chatscene\\meetingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chatscene\\meetingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|C:\\proj\\ATT-Unity\\IF\\assets\\scripts\\cafescene\\textfromvue2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|c:\\proj\\att-unity\\if\\assets\\scripts\\cafescene\\textfromvue2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cafescene\\textfromvue2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|C:\\proj\\ATT-Unity\\IF\\assets\\scripts\\cafescene\\sendmessagetovue2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cafescene\\sendmessagetovue2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|C:\\proj\\ATT-Unity\\IF\\assets\\scripts\\cafescene\\likabilitydisplay2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cafescene\\likabilitydisplay2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|C:\\proj\\ATT-Unity\\IF\\assets\\scripts\\chatscene\\chatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{434001D9-44E4-8E28-E772-25E1D5A63BF0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chatscene\\chatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,19 +64,19 @@
         },
         {
           "DockedWidth": 314,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SendMessageToVue.cs",
-              "DocumentMoniker": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\ChatScene\\SendMessageToVue.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ChatScene\\SendMessageToVue.cs",
-              "ToolTip": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\ChatScene\\SendMessageToVue.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ChatScene\\SendMessageToVue.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwGYAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "TextFromVue2.cs",
+              "DocumentMoniker": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\CafeScene\\TextFromVue2.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CafeScene\\TextFromVue2.cs",
+              "ToolTip": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\CafeScene\\TextFromVue2.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CafeScene\\TextFromVue2.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T06:57:04.046Z",
+              "WhenOpened": "2024-09-09T07:22:59.596Z",
               "EditorCaption": ""
             },
             {
@@ -75,48 +87,9 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\ChatScene\\MeetingManager.cs",
               "ToolTip": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\ChatScene\\MeetingManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\ChatScene\\MeetingManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T03:36:53.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ChatManager.cs",
-              "DocumentMoniker": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\ChatScene\\ChatManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ChatScene\\ChatManager.cs",
-              "ToolTip": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\ChatScene\\ChatManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ChatScene\\ChatManager.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAYwEwAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T03:37:20.526Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LikabilityManager.cs",
-              "DocumentMoniker": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\ChatScene\\LikabilityManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ChatScene\\LikabilityManager.cs",
-              "ToolTip": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\ChatScene\\LikabilityManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ChatScene\\LikabilityManager.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAQwGMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T03:33:10.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TextFromVue.cs",
-              "DocumentMoniker": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\ChatScene\\TextFromVue.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ChatScene\\TextFromVue.cs",
-              "ToolTip": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\ChatScene\\TextFromVue.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ChatScene\\TextFromVue.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T00:58:57.955Z",
+              "WhenOpened": "2024-09-09T11:10:36.186Z",
               "EditorCaption": ""
             },
             {
@@ -127,23 +100,99 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Base\\SceneController.cs",
               "ToolTip": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\Base\\SceneController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Base\\SceneController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCoAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-03T05:48:49.891Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TextFromVue2.cs",
-              "DocumentMoniker": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\CafeScene\\TextFromVue2.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CafeScene\\TextFromVue2.cs",
-              "ToolTip": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\CafeScene\\TextFromVue2.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CafeScene\\TextFromVue2.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "LikabilityManager.cs",
+              "DocumentMoniker": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\ChatScene\\LikabilityManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ChatScene\\LikabilityManager.cs",
+              "ToolTip": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\ChatScene\\LikabilityManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ChatScene\\LikabilityManager.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAYwHUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T06:47:29.223Z",
+              "WhenOpened": "2024-09-06T03:33:10.179Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SendMessageToVue.cs",
+              "DocumentMoniker": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\ChatScene\\SendMessageToVue.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ChatScene\\SendMessageToVue.cs",
+              "ToolTip": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\ChatScene\\SendMessageToVue.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ChatScene\\SendMessageToVue.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswF8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T07:51:43.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LikabilityManager2.cs",
+              "DocumentMoniker": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\CafeScene\\LikabilityManager2.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CafeScene\\LikabilityManager2.cs",
+              "ToolTip": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\CafeScene\\LikabilityManager2.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CafeScene\\LikabilityManager2.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAwEkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T07:24:57.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DiningManager.cs",
+              "DocumentMoniker": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\CafeScene\\DiningManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CafeScene\\DiningManager.cs",
+              "ToolTip": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\CafeScene\\DiningManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CafeScene\\DiningManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwA8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T07:13:43.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SendMessageToVue2.cs",
+              "DocumentMoniker": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\CafeScene\\SendMessageToVue2.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CafeScene\\SendMessageToVue2.cs",
+              "ToolTip": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\CafeScene\\SendMessageToVue2.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CafeScene\\SendMessageToVue2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T07:26:56.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChatManager.cs",
+              "DocumentMoniker": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\ChatScene\\ChatManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ChatScene\\ChatManager.cs",
+              "ToolTip": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\ChatScene\\ChatManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ChatScene\\ChatManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T03:37:20.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LikabilityDisplay2.cs",
+              "DocumentMoniker": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\CafeScene\\LikabilityDisplay2.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CafeScene\\LikabilityDisplay2.cs",
+              "ToolTip": "C:\\proj\\ATT-Unity\\IF\\Assets\\Scripts\\CafeScene\\LikabilityDisplay2.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CafeScene\\LikabilityDisplay2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T07:24:48.373Z"
             }
           ]
         }
