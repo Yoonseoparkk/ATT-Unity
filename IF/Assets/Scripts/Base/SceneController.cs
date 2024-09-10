@@ -28,6 +28,11 @@ public class SceneController : MonoBehaviour
         StartCoroutine(MoveScene("CafeScene", ""));
     }
 
+    public void MoveToDiningScene()
+    {
+        StartCoroutine(MoveScene("DiningScene", ""));
+    }
+
     public void MoveToMenuScene()
     {
         StartCoroutine(MoveScene("MenuScene", ""));
@@ -36,6 +41,7 @@ public class SceneController : MonoBehaviour
 
     IEnumerator MoveScene(string SceneName, string descriptionText)
     {
+        yield return new WaitForSeconds(2f);  // 지체할 시간 (초)
         fadePanel.DOFade(1, 1.5f); // Fade out
         description.DOFade(1, 1.5f);
         description.text = descriptionText;
